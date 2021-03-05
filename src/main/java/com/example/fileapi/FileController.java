@@ -15,7 +15,7 @@ import java.nio.file.StandardCopyOption;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@CrossOrigin("localhost:3000") // XHR
+@CrossOrigin("http://localhost:3000") // XHR
 @RestController
 @RequestMapping("/files")
 public class FileController {
